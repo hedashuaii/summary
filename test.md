@@ -21,8 +21,7 @@
 ***
 *****
 
-![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
-u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
+![Alt text](http://www.hedashuai.com/img/random/46.jpg "optional title")
 
 
 [简书](http://jianshu.com)
@@ -30,13 +29,19 @@ u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
 
 
 - 列表内容
+- 列表内容
+- 列表内容
 + 列表内容
++ 列表内容
++ 列表内容
+* 列表内容
+* 列表内容
 * 列表内容
 
 注意：- + * 跟内容之间都要有一个空格
 
-1.列表内容
-2.列表内容
-3.列表内容
+1. 列表内容
+2. 列表内容
+3. 列表内容
 
 注意：序号跟内容之间要有空格
