@@ -53,8 +53,8 @@
 
 ## Other
 
-* [缓存](./VUE/缓存.md)
-* [开发必备工具](./VUE/开发必备工具.md)
-* [eslint-aribnb细则](./VUE/eslint-aribnb细则.md)
-* [eslint三大标准](./VUE/eslint三大标准.md)
-* [Git](./VUE/Git.md)
+* [缓存](./Other/缓存.md)
+* [开发必备工具](./Other/开发必备工具.md)
+* [eslint-aribnb细则](./Other/eslint-aribnb细则.md)
+* [eslint三大标准](./Other/eslint三大标准.md)
+* [Git](./Other/Git.md)
