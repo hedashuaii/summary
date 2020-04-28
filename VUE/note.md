@@ -10,9 +10,6 @@ v-if 只渲染值为true的元素， 但可以和v-else 和 v-else-if配合使�
 
 ## v-model
 自定义组件使用v-model 
-[传送门1](https://cn.vuejs.org/v2/api/#model)
-[传送门2](https://cn.vuejs.org/v2/guide/components.html#%E5%9C%A8%E7%BB%84%E4%BB%B6%E4%B8%8A%E4%BD%BF%E7%94%A8-v-model)
-[传送门3](https://cn.vuejs.org/v2/guide/components-custom-events.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6%E7%9A%84-v-model)
 
 ## 父子组件的通信
 
