@@ -6,6 +6,7 @@
 
 * [input:file 属性](./HTML/input-file属性.md)
 * [语义化标签](./HTML/语义化标签.md)
+* [href和src的区别](./HTML/href和src的区别.md)
 
 ## CSS
 
@@ -17,6 +18,8 @@
 * [BFC](./CSS/BFC.md)
 * [行内,块级,行内块级元素](./CSS/行内,块级,行内块级元素.md)
 * [Question](./CSS/Question.md)
+* [隐藏元素的方法有哪些](./CSS/隐藏元素的方法有哪些.md)
+
 
 ## JS
 

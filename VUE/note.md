@@ -40,7 +40,12 @@ v-if 只渲染值为true的元素， 但可以和v-else 和 v-else-if配合使�
 ## diff算法
 
 ## 模版编译
-with 语法
+1. 通过template生成AST语法树
+2. 通过AST语法树生成render函数字符串
+3. 在render函数字符串外面包一个with语法，指向data
+4. new Function, 内容是with包裹的render函数字符串
+5. 调用vue组件的时候就调用 render 函数生成 vdom
+6. 通过虚拟 vdom 生成 真实dom
 
 ## vue 原理核心的内容就是渲染
 
