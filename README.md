@@ -60,3 +60,4 @@
 * [eslint-aribnb细则](./Other/eslint-aribnb细则.md)
 * [eslint三大标准](./Other/eslint三大标准.md)
 * [Git](./Other/Git.md)
+* [VSCode自动格式化](./Other/VSCode自动格式化.md)
