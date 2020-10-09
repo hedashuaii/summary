@@ -20,7 +20,6 @@
 * [Question](./CSS/Question.md)
 * [隐藏元素的方法有哪些](./CSS/隐藏元素的方法有哪些.md)
 
-
 ## JS
 
 * [闭包](./JS/闭包.md)
@@ -43,6 +42,10 @@
 * [call,apply和bind](./JS/call,apply和bind.md)
 * [new](./JS/new.md)
 * [箭头函数](./JS/箭头函数.md)
+
+## TypeScript
+
+* [类型](./TypeScript/类型.md)
 
 ## VUE
 
