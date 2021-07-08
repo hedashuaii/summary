@@ -7,7 +7,7 @@
 var defaultOption = {
     url: '',
     data: {},
-    async: true,
+    asyncFlag: true,
     dataType: '',
     method: 'get',
     timeout: 1000,
@@ -91,7 +91,7 @@ get({
     url: './test.json',
     method: 'get',
     dataType: 'json',
-    data: {name: 'HeDaShuai'}
+    data: { name: 'HeDaShuai'}
 });
 
 ```
