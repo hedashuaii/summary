@@ -1,7 +1,7 @@
 ## CSS
 
 * [BFC](./CSS/BFC.md)
-* [content 内容为中文时会乱码](./CSS/content 内容为中文时会乱码.md)
+* [content内容为中文时会乱码](./CSS/content内容为中文时会乱码.md)
 * [Question](./CSS/Question.md)
 * [不定宽高居中](./CSS/不定宽高居中.md)
 * [修改滚动条样式](./CSS/修改滚动条样式.md)
@@ -36,7 +36,7 @@
 * [宏任务与微任务](./JS/宏任务与微任务.md)
 * [对象属性的数据属性](./JS/对象属性的数据属性.md)
 * [常见状态码](./JS/常见状态码.md)
-* [模拟 lodash 的 chunk](./JS/模拟 lodash 的 chunk.md)
+* [模拟lodash的chunk](./JS/模拟lodash的chunk.md)
 * [浏览器内核](./JS/浏览器内核.md)
 * [深浅拷贝](./JS/深浅拷贝.md)
 * [箭头函数](./JS/箭头函数.md)
@@ -86,13 +86,13 @@
 
 ## Other
 
-* [eslint 忽略检查](./Other/eslint 忽略检查.md)
 * [eslint-airbnb细则](./Other/eslint-airbnb细则.md)
 * [eslint三大标准](./Other/eslint三大标准.md)
+* [eslint忽略检查](./Other/eslint忽略检查.md)
 * [Git](./Other/Git.md)
 * [restful](./Other/restful.md)
 * [VSCode自动格式化](./Other/VSCode自动格式化.md)
-* [vue cli 创建的项目与git远程仓库连通](./Other/vue cli 创建的项目与git远程仓库连通.md)
+* [vue-cli创建的项目与git远程仓库连通](./Other/vue-cli创建的项目与git远程仓库连通.md)
 * [前端安全](./Other/前端安全.md)
 * [开发必备](./Other/开发必备.md)
 * [开发过程中遇到的问题](./Other/开发过程中遇到的问题.md)
@@ -132,7 +132,7 @@
 * [生命周期](./VUE/生命周期.md)
 * [谈一谈MVVM](./VUE/谈一谈MVVM.md)
 * [面试题](./VUE/面试题.md)
-* [项目中使用 rem 适配移动端](./VUE/项目中使用 rem 适配移动端.md)
+* [项目中使用rem适配移动端](./VUE/项目中使用rem适配移动端.md)
 * [首屏渲染优化](./VUE/首屏渲染优化.md)
 
 ## Webpack
@@ -147,8 +147,6 @@
 * [V8引擎的垃圾回收机制](./面试题/V8引擎的垃圾回收机制.md)
 * [内存泄露的场景](./面试题/内存泄露的场景.md)
 * [性能优化](./面试题/性能优化.md)
-* [想问的问题](./面试题/想问的问题.md)
-* [我当面试官](./面试题/我当面试官.md)
 * [模块化](./面试题/模块化.md)
 * [浏览器渲染流程](./面试题/浏览器渲染流程.md)
 * [深浅拷贝](./面试题/深浅拷贝.md)
