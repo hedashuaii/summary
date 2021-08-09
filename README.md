@@ -15,13 +15,21 @@
 
 ## Git
 
+* [Git](./Git/Git.md)
 * [忽略提交](./Git/忽略提交.md)
+* [撤回上一次commit](./Git/撤回上一次commit.md)
 
 ## HTML
 
 * [href和src的区别](./HTML/href和src的区别.md)
 * [input-file属性](./HTML/input-file属性.md)
 * [语义化标签](./HTML/语义化标签.md)
+
+## http
+
+* [restful](./http/restful.md)
+* [文件下载](./http/文件下载.md)
+* [缓存](./http/缓存.md)
 
 ## JS
 
@@ -89,26 +97,15 @@
 * [eslint-airbnb细则](./Other/eslint-airbnb细则.md)
 * [eslint三大标准](./Other/eslint三大标准.md)
 * [eslint忽略检查](./Other/eslint忽略检查.md)
-* [Git](./Other/Git.md)
-* [restful](./Other/restful.md)
-* [VSCode自动格式化](./Other/VSCode自动格式化.md)
-* [vue-cli创建的项目与git远程仓库连通](./Other/vue-cli创建的项目与git远程仓库连通.md)
 * [前端安全](./Other/前端安全.md)
-* [开发必备](./Other/开发必备.md)
+* [开发工具](./Other/开发工具.md)
 * [开发过程中遇到的问题](./Other/开发过程中遇到的问题.md)
-* [文件下载](./Other/文件下载.md)
-* [缓存](./Other/缓存.md)
-* [页面性能优化](./Other/页面性能优化.md)
-
-## Question
-
-* [1](./Question/1.md)
 
 ## React
 
-* [1](./React/1.md)
 * [Hooks](./React/Hooks.md)
 * [react-router](./React/react-router.md)
+* [入门](./React/入门.md)
 * [创建项目](./React/创建项目.md)
 * [对比Vue](./React/对比Vue.md)
 
@@ -121,6 +118,7 @@
 
 * [debugger错位](./VUE/debugger错位.md)
 * [note](./VUE/note.md)
+* [vue-cli创建的项目与git远程仓库连通](./VUE/vue-cli创建的项目与git远程仓库连通.md)
 * [Vue3](./VUE/Vue3.md)
 * [vuex](./VUE/vuex.md)
 * [Vue响应式原理](./VUE/Vue响应式原理.md)

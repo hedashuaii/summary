@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: 何志辉
+ * @Date: 2021-06-22 09:44:05
+ * @LastEditors: 何志辉
+ * @LastEditTime: 2021-08-09 09:40:24
+-->
 # React router
 
 react-router 分为 **react-router-dom** 和 **react-router-native**。
@@ -23,7 +31,7 @@ npm install react-router-native -S
 - NaviLink
 
 ```javascript
-console.log('123')
+
 ```
 
 ## react-router-config
