@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button">clicke me</button>
+    <script>
+        // 节流
+        // N秒内只触发第一次点击
+        // N秒内多次点击按钮,只触发第一次
+        function throttle(fn, await = 500) {
+            let prevDate = 0
+
+            return function(...args) {
+                const now = Date.now()
+                if(now - prevDate > await) {
+                    prevDate = now
+                    fn.apply(this, args)
+                }
+            }
+        }
+        // 防抖
+        // N秒内调用只触发最后一次
+        // 主要应用场景窗口大小改变防抖
+        function debounce(fn, await = 500) {
+            let timer
+            return function (...args) {
+                timer && clearTimeout(timer)
+                timer = setTimeout(() => {
+                    fn.call(this, ...args)
+                }, await);
+            }
+            return fn
+        }
+
+        function handleWindowChange(e) {
+            console.log(e)
+        }
+
+        window.addEventListener('resize', debounce(handleWindowChange, 1000))
+    </script>
+    <script>
+        
+        function handleButtonClick() {
+            console.log('Click')
+        }
+        button.addEventListener('click', throttle(handleButtonClick,2000))
+    </script>
+</body>
+</html>
