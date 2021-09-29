@@ -14,7 +14,7 @@ react-router 是 **react-router-dom** 和 **react-router-native** 的公共部�
 
 ## 安装
 
-```cmd
+```bash
 npm install react-router-dom -S
 
 npm install react-router-native -S
