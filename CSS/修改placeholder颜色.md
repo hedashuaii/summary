@@ -30,12 +30,12 @@ input, textarea {
 
 1. 在 chrome 的控制台中打开设置页面
 
-![image-20211012145205579](D:\project\summary\css\imgs\image-20211012145205579.png)
+![image-20211012145205579](.\imgs\image-20211012145205579.png)
 
 2. 在设置页面的 Perferences => Elements 中选中 “Show user agent shadow DOM”
 
-![image-20211012145302078](D:\project\summary\css\imgs\image-20211012145302078.png)
+![image-20211012145302078](.\imgs\image-20211012145302078.png)
 
 即可在 Elements Tabs 中查看 Input 或 Textarea 的 placeholder 样式
 
- ![image-20211012145820859](D:\project\summary\css\imgs\image-20211012145820859.png)
+ ![image-20211012145820859](.\imgs\image-20211012145820859.png)
