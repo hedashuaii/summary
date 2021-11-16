@@ -7,15 +7,23 @@
 ```scss
 // 设置 placeholder 的颜色
 @mixin placeholderColor($color) {
+  // Firefox
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+  }
+
+  // Internet Explorer 10+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+
+  // Safari and Chrome
   &::-webkit-input-placeholder {
     color: $color;
   }
-  &::-moz-placeholder {
-    color: $color;
-  }
-  &::-ms-placeholder {
-    color: $color;
-  }
+  
+  // Standard
   &::placeholder {
     color: $color;
   }
