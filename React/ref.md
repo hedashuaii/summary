@@ -1,12 +1,8 @@
 # ref
 
-
-
 ref 可以拿到组件或dom元素的引用
 
-
-
-## 三种使用方式
+## 使用方式
 
 ### 字符串形式
 
@@ -27,9 +23,7 @@ class RefString extends Component {
 }
 ```
 
-
-
-回调函数形式
+### 回调函数形式
 
 ```typescript
 import React, { Component } from 'react'
@@ -52,7 +46,7 @@ export default class RefCallback extends Component {
 
 ```
 
-createRef 形式
+### createRef 形式
 
 ```typescript
 import React, { Component, createRef } from 'react'
@@ -74,4 +68,26 @@ export default class RefCreateRef extends Component {
 }
 
 ```
+
+### useRef 形式
+
+```typescript
+import React, { useRef } from 'react'
+
+export default function UseRefDemo() {
+    const ref = useRef<HTMLInputElement>(null)
+
+    return (
+        <div>
+            <input ref={ref} type="text" />
+            <button onClick={() => {
+                // 通过 ref.current 可以拿到 input 元素的引用
+                console.log(ref.current!.value)
+            }}>按钮</button>
+        </div>
+    )
+}
+```
+
+## useRef 和 createRef 的区别
 
