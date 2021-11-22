@@ -15,9 +15,9 @@
 这个相对单位在我面试其它同学的过程当中，经常有人回答错，说是相对于父元素的 font-size 大小；其实 em 参照的并不是父元素的 font-size，而是参照的当前元素的 font-size;
 然而当前元素没有设置 font-size 的时候，当前元素的 font-size 会继承自父元素的 font-size 值，所以会造成一种 em 是参照了父元素的 font-size 的错觉。
 
-> 在 [MDN font-size](https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-size) 中也有明确说明 font-size 属性是一个继承属性。
+> 在 [MDN font-size](https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-size) 中也有明确说明 font-size 属性是一个继承属性
 
-> 关于 CSS 属性继承相关的内容可以阅读这时：[MDN CSS 继承](https://developer.mozilla.org/zh-CN/docs/Web/CSS/inheritance) 这篇文章。
+> 关于 CSS 属性继承相关的内容可以阅读这里：[MDN CSS 继承](https://developer.mozilla.org/zh-CN/docs/Web/CSS/inheritance)
 
 ```html
 <div class="parent">

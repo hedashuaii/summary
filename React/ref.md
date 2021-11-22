@@ -91,3 +91,6 @@ export default function UseRefDemo() {
 
 ## useRef 和 createRef 的区别
 
+useRef 是一个 hooks 只能使用在 函数组件 当中，而 createRef 是 React 对象身上的一个 API，可以使用在 函数组件 和 class 组件 当中
+
+因为 useRef 是一个 hooks 所以一个组件实例只会创建一次，之后组件状态的更新不会重新创建，而 React.createRef 是在创建一个函数调用，只要组件更新这个 函数就会再次被调用
