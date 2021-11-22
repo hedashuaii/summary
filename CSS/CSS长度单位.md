@@ -12,15 +12,17 @@
 
 ### em
 
-这个相对单位在我面试其它同学的过程当中，经常有人回答错，其实 em 参照的并不是父元素的 font-size，而是参照的当前元素的 font-size;
+这个相对单位在我面试其它同学的过程当中，经常有人回答错，说是相对于父元素的 font-size 大小；其实 em 参照的并不是父元素的 font-size，而是参照的当前元素的 font-size;
 然而当前元素没有设置 font-size 的时候，当前元素的 font-size 会继承自父元素的 font-size 值，所以会造成一种 em 是参照了父元素的 font-size 的错觉。
 
-> 在 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-size) 中也有明确说明 font-size 属性是一个继承属性。
+> 在 [MDN font-size](https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-size) 中也有明确说明 font-size 属性是一个继承属性。
 
-> 关于 CSS 属性继承相关的内容可以阅读 [CSS-继承](https://developer.mozilla.org/zh-CN/docs/Web/CSS/inheritance) 这篇文章。
+> 关于 CSS 属性继承相关的内容可以阅读这时：[MDN CSS 继承](https://developer.mozilla.org/zh-CN/docs/Web/CSS/inheritance) 这篇文章。
 
 ```html
-<div class="parent"> <div class="son"></div> </div>
+<div class="parent">
+    <div class="son"></div>
+</div>
 ```
 
 案例一
@@ -53,20 +55,25 @@ rem 作用于"非根元素(除 html 标签外的其它标签)"时，计算值是
 
 rem 最常见的用法就是用在移动端适配当中。
 
+案例一
 ```scss
 html {
-    font-size: 2rem; // Chrome 中 html 初始字号大小是 16px, 所以这里 2rem = 32px
+    // Chrome 中 html 初始字号大小是 16px, 所以这里 2rem = 32px
+    font-size: 2rem;
 }
 ```
 
+案例二
 ```scss
 html {
     font-size: 100px;
 }
 
 p {
-    font-size: 0.5rem; // 100px * 0.5 = 50px
-    line-height: 0.75rem; // 100px * 0.75 = 75px
+    // 100px * 0.5 = 50px
+    font-size: 0.5rem;
+    // 100px * 0.75 = 75px
+    line-height: 0.75rem;
 }
 ```
 
@@ -80,10 +87,12 @@ p {
 
 > 上文中描述的包含块的含义可以阅读这里：[MDN 包含块](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Containing_block)
 
-> 百分比单位相关的详情内容可以阅读这里：[MDN 百分比单位](https://developer.mozilla.org/zh-CN/docs/Web/CSS/percentage)
+> 百分比单位相关的详细内容可以阅读这里：[MDN 百分比单位](https://developer.mozilla.org/zh-CN/docs/Web/CSS/percentage)
 
 ```html
-<div class="parent"> <div class="son"></div> </div>
+<div class="parent">
+    <div class="son"></div>
+</div>
 ```
 
 ```scss
@@ -95,17 +104,26 @@ p {
 }
 
 .son {
-    font-size: 200%; // 相对于父元素的 font-size, 即 20px * 200% = 40px
-    width: 30%; // 相对于父元素的 width, 即 100px * 30% = 30px
-    height: 100%; // 相对于父元素的 height, 即 88px * 100% = 88px
-    padding: 5%; // 相对于父元素的 width, 即 100px * 5% = 5px
-    margin: 6%; // 相对于父元素的 width, 即 100px * 6% = 6px
+    // 相对于父元素的 font-size, 即 20px * 200% = 40px
+    font-size: 200%;
+    // 相对于父元素的 width, 即 100px * 30% = 30px
+    width: 30%;
+    // 相对于父元素的 height, 即 88px * 100% = 88px
+    height: 100%;
+    // 相对于父元素的 width, 即 100px * 5% = 5px
+    padding: 5%;
+    // 相对于父元素的 width, 即 100px * 6% = 6px
+    margin: 6%;
 
     position: relative;
-    left: 5%; // 相对于父元素的 width, 即 100px * 5% = 5px
-    right: 5%; // 相对于父元素的 width, 即 100px * 5% = 5px
-    top: 10%; // 相对于父元素的 height, 即 88px * 10% = 8.8px
-    bottom: 10%; // 相对于父元素的 height, 即 88px * 10% = 8.8px
+    // 相对于父元素的 width, 即 100px * 5% = 5px
+    left: 5%;
+    // 相对于父元素的 width, 即 100px * 5% = 5px
+    right: 5%;
+    // 相对于父元素的 height, 即 88px * 10% = 8.8px
+    top: 10%;
+    // 相对于父元素的 height, 即 88px * 10% = 8.8px
+    bottom: 10%;
 }
 ```
 
@@ -138,5 +156,5 @@ viewport 的意思是视口，我们可以浅层次的理解为浏览器中页�
 
 ## 参考文章
 
-* [张鑫旭：CSS/CSS3长度、时间、频率、角度单位大全](https://www.zhangxinxu.com/wordpress/2011/03/css-css3-unit-units/)
 * [菜鸟教程：CSS 单位](https://www.runoob.com/cssref/css-units.html)
+* [张鑫旭：CSS/CSS3长度、时间、频率、角度单位大全](https://www.zhangxinxu.com/wordpress/2011/03/css-css3-unit-units/)
