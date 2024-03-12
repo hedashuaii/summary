@@ -1,5 +1,9 @@
 # Git 的使用
 
+## Git 安装
+
+(国内镜像)[https://registry.npmmirror.com/binary.html?path=git-for-windows/]
+
 ## Git 配置
 
 ```
